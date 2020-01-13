@@ -1,6 +1,6 @@
 def oxford_comma(array)
   finalString = ""
-  let i = 0
+  i = 0
 
   array.each do |word|
     if array.length == 1
