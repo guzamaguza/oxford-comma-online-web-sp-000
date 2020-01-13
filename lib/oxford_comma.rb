@@ -9,6 +9,6 @@ def oxford_comma(array)
     elsif i == array.length
      finalString = finalString + array[i]
     end
-   }end
+   }
   return finalString
 end
