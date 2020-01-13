@@ -12,10 +12,10 @@ array.each do |word|
   else
         if i < array.length - 1
          finalString = finalString + word + ", "
-        elsif i == array.length-1
-         finalString = finalString + word + ", and "
         elsif i == array.length
-         finalString = finalString + word
+         finalString = finalString + word + ", and "
+        #elsif i == array.length
+         #finalString = finalString + word
         end
     end
     i += 1
