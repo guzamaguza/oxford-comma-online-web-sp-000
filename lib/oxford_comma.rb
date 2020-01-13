@@ -3,6 +3,9 @@ def oxford_comma(array)
   let i = 0
 
   array.each do |word|
+    if array.length == 1
+      return word
+    end
 
     if i < array.length - 1
      finalString = finalString + word + ","
