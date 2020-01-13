@@ -20,4 +20,5 @@ array.each do |word|
         i += 1
     end
   end
+  return finalString
 end
