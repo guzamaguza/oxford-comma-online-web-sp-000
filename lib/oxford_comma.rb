@@ -11,9 +11,9 @@ array.each do |word|
     return array[0] + ", " + array[1] + ", and " + array[2]
   else
         if i < array.length - 1
-         finalString = finalString + word + ","
+         finalString = finalString + word + ", "
         elsif i == array.length-1
-         finalString = finalString + word + ", and"
+         finalString = finalString + word + ", and "
         elsif i == array.length
          finalString = finalString + word
         end
