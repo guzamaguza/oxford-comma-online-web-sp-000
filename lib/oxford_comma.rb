@@ -5,6 +5,8 @@ def oxford_comma(array)
   array.each do |word|
     if array.length == 1
       return word
+    elsif array.length == 2
+      return array[0] + "and" array[1]
     else
 
         if i < array.length - 1
