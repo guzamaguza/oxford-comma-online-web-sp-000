@@ -19,7 +19,7 @@ array.each do |word|
         end
         i += 1
     end
-  
+
   end
   return finalString
 end
