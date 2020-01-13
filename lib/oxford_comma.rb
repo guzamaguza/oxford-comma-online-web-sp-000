@@ -1,13 +1,14 @@
 def oxford_comma(array)
   finalString = ""
 
-  for let i=0;i<array.length;i++ do {
+  i<array.length;i++ do {
+  array.each do |word|
     if i < array.length - 1
-     finalString = finalString + array[i] + ","
+     finalString = finalString + word + ","
     elsif i == array.length-1
-     finalString = finalString + array[i] + ", and"
+     finalString = finalString + word + ", and"
     elsif i == array.length
-     finalString = finalString + array[i]
+     finalString = finalString + word
     end
    }
   return finalString
