@@ -14,7 +14,7 @@ array.each do |word|
          finalString = finalString + word + ", "
         elsif i == array.length-2
          finalString = finalString + word + ", and "
-        elsif i == array.length
+        elsif i == array.length - 1
          finalString = finalString + word
         end
         i += 1
