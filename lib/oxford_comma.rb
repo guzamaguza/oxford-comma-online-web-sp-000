@@ -1,7 +1,7 @@
 def oxford_comma(array)
   finalString = ""
 
-  i<array.length;i++ do {
+
   array.each do |word|
     if i < array.length - 1
      finalString = finalString + word + ","
@@ -10,6 +10,6 @@ def oxford_comma(array)
     elsif i == array.length
      finalString = finalString + word
     end
-   }
+  end
   return finalString
 end
